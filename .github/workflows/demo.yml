@@ -1,0 +1,12 @@
+name: Demo
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  joke:
+    runs-on: ubuntu-latest
+    steps:
+        - uses: actions/checkout@v3
+        - name: haha
+          uses: ./.github/actions/joke-action
