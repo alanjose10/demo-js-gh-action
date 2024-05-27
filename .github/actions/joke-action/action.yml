@@ -1,0 +1,7 @@
+name: my joke action
+
+description: use an API to get and display a random joke
+
+runs:
+  using: node20
+  main: main.js
